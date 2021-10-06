@@ -1,3 +1,28 @@
 body {
-    background-color: aqua;
+    background-color: blue;
+    font-family: Open-sans;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px;
+}
+
+.btn {
+    width: 200px;
+    height: 150px;
+
 }

@@ -13,12 +13,12 @@ body {
     background-color: #2a7eb6;
     box-sizing: border-box;
     width: 85%;
-    height:500px;
-    max-height: 450px;
+    height:300px;
+    max-height: 400px;
     max-width: 830px;
     margin-left: auto;
     margin-right:auto;
-    padding: 100px;
+    padding: 10px;
     border-radius: 20px;
     border-style: solid;
 }
@@ -35,12 +35,24 @@ h3 {
     font-size: 20px;
 }
 
-.go { 
-    width: 200px;
-    height: 100px;
+.choices {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
     border-radius: 20px;
-    border-width: 3px;
-    font-size: 40px;
-    font-weight: bold;
-    padding: 20px;
+    border-style: solid;
+    max-width: 830px;
+    background-color: aqua;
+    
+}
+.points {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    max-width: 830px;
+    background-color: aqua;
 }

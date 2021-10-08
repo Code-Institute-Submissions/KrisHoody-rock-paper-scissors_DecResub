@@ -18,10 +18,10 @@ let chooseRps = {
         'paper' : 'draw'
     }
 
-}
+};
 
 function playGame(input) {
-    var choices = ['rock', 'paper', 'scissors']
+    var choices = ['rock', 'paper', 'scissors'];
     var num = Math.floor(Math.random() * 3);
 
 
@@ -40,11 +40,10 @@ function playGame(input) {
             break;
         case 'lose':  
             result_game.innerHTML = 'You loose';
-            your_points++;
-            break; 
-            
+            comp_points++;
+            break;     
         default :
-            result_game.innerHTML = 'Tie';
+            result_game.innerHTML = 'Draw';
             break;   
 
     }

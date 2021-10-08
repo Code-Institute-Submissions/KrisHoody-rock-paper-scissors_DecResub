@@ -16,19 +16,19 @@
     </h1>
     <div class="game-area">
         <h3>Please Choose:</h3>
-        <button data-type="rock" class="btn" ><img src="/assets/images/4405457.png" alt="rock"></button>
-        <button data-type="scissors" class="btn"><img src="/assets/images/sci.png" alt="scissors"></button>
-        <button data-type="paper" class="btn"><img src="/assets/images/paper.png" alt="paper"></button>
+        <button class="btn" onclick="playGame('rock')"><img src="/assets/images/4405457.png" alt="rock"></button>
+        <button class="btn" onclick="playGame('scissors')"><img src="/assets/images/sci.png" alt="scissors"></button>
+        <button class="btn" onclick="playGame('paper')"><img src="/assets/images/paper.png" alt="paper"></button>
         
     </div>
     <div class="choices">
-        <p>You choose:</p>
-        <p>Computer choose:</p>
-        <p id="result">Result:</p>
+        <p>You choose:<span id="you-choose"></span></p>
+        <p>Computer choose: <span id="computer-choose"></span></p>
+        <p>Result:<span id="result"></span></p>
     </div>
     <div class="points">
-        <p>Computer:</p>
-        <p>You:</p>
+        <p>Computer: <span id="comp_points">0</span></p>
+        <p>You: <span id="your_points">0</span></p>
 
     </div>
     

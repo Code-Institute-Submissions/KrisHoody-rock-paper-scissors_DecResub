@@ -42,7 +42,7 @@ function playGame(input) {
             result_game.innerHTML = 'You loose';
             comp_points++;
             break;     
-        default :
+        default:
             result_game.innerHTML = 'Draw';
             break;   
 

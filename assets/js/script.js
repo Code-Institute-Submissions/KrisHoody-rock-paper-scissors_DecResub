@@ -6,7 +6,7 @@ let chooseRps = {
         'rock' : 'draw',
         'scissors' : 'win',
         'paper' : 'lose',
-        'lizard' : 'lose',
+        'lizard' : 'win',
         'spock' : 'lose',
     },
     'scissors' : {

@@ -5,24 +5,44 @@ let chooseRps = {
     'rock' : {
         'rock' : 'draw',
         'scissors' : 'win',
-        'paper' : 'lose'
+        'paper' : 'lose',
+        'lizard' : 'lose',
+        'spock' : 'lose',
     },
     'scissors' : {
         'rock' : 'lose',
         'scissors' : 'draw',
-        'paper' : 'win'
+        'paper' : 'win',
+        'lizard' : 'win',
+        'spock' : 'lose'
     },
     'paper' : {
         'rock' : 'win',
         'scissors' : 'lose',
-        'paper' : 'draw'
-    }
+        'paper' : 'draw',
+        'spock' : 'win',
+        'lizard' : 'lose',
+    },
+    'lizard' : {
+        'rock' : 'lose',
+        'scissors' : 'lose',
+        'paper' : 'win',
+        'spock' : 'win',
+        'lizard' : 'draw'
+    },
+    'spock' : {
+        'rock' : 'win',
+        'scissors' : 'win',
+        'paper' : 'lose',
+        'spock' : 'draw',
+        'lizard' : 'lose'
+    },
 
 };
 
 function playGame(input) {
-    var choices = ['rock', 'paper', 'scissors'];
-    var num = Math.floor(Math.random() * 3);
+    var choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
+    var num = Math.floor(Math.random() * 5);
 
 
     document.getElementById('computer-choose').innerHTML =

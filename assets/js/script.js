@@ -1,4 +1,4 @@
-
+  // Decide winner
 let [comp_points, your_points] = [0,0];
 let result_game = document.getElementById('result');
 let chooseRps = {
@@ -40,19 +40,21 @@ let chooseRps = {
 
 };
 
+// Logic of a game
+
 function playGame(input) {
     var choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
     var num = Math.floor(Math.random() * 5);
 
-
+// Get computer pick
     document.getElementById('computer-choose').innerHTML =
     `<span> ${choices[num]}</span>`;
-
+// Get player pick
     document.getElementById('you-choose').innerHTML = 
     `<span> ${input}</span>`;
 
     let comp_choice = choices[num];
-
+// points counting
     switch(chooseRps[input][comp_choice]){
         case 'win':
             result_game.innerHTML = 'You win';
@@ -65,7 +67,7 @@ function playGame(input) {
         default:
             result_game.innerHTML = 'Draw';
             break;   
-
+//displaying ponts
     }
     document.getElementById('comp_points').innerHTML = comp_points;
     document.getElementById('your_points').innerHTML = your_points; 

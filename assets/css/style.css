@@ -12,9 +12,8 @@ body {
 .game-area {
     background-color: #2a7eb6;
     box-sizing: border-box;
-    width: 85%;
-    height:200px;
-    max-height: 240px;
+    width: 100%;
+    height: fit-content;
     max-width: 830px;
     margin-left: auto;
     margin-right:auto;
@@ -24,13 +23,13 @@ body {
 }
 
 .btn {
-    width: 200px;
     height: 140px;
     border-radius: 20px;
     border-width: 3px;
     font-size: 25px;
     font-weight: bolder;
     font-style: none;
+    text-decoration: none;
 }
 
 h3 {
@@ -71,13 +70,8 @@ h3 {
     border-style: solid;
     max-width: 830px;
     background-color: aqua;
-
-a {
-    text-decoration: none;
 }
-    
-
-
-@media screen and (max-width: 300px wide and down) {
-
+img {
+    padding: 5px;
+    width: 100px;
 }

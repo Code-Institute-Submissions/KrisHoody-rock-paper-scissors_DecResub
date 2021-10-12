@@ -1,5 +1,7 @@
 <h1 align="center">Rock/Scissors/Paper/Lizard/Spock Game</h1>
 
+<img src="assets/images/resp.png">
+
 <h3>Rock, Paper, Scissors, Lizard, Spock is an expansion of Rock, Paper, Scissors created by Sam Kass and Karen Bryla . It was popularized by The Big Bang Theory TV series. Those traditional Rock, Paper, Scissors rules still apply, but two new options are added to the game: Lizard and Spock.<h3>
   
 <h1>Overview</h1>

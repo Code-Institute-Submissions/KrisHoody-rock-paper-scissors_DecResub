@@ -75,3 +75,7 @@ img {
     padding: 5px;
     width: 100px;
 }
+
+.newGame > .btn {
+    height: 40px;
+}

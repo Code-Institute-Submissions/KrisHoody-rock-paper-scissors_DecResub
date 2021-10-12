@@ -40,6 +40,7 @@ let chooseRps = {
 
 };
 
+
 // Logic of a game
 
 function playGame(input) {
@@ -73,4 +74,7 @@ function playGame(input) {
     document.getElementById('your_points').innerHTML = your_points; 
     
 }
-
+// reloads page for new game
+function newGame() {
+    window.parent.location = window.parent.location.href;
+}

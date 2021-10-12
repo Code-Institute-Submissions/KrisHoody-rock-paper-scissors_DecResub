@@ -25,7 +25,7 @@
    3. Javascript<br>
    <br>
 <h1>Credits</h1>
- <h3>Pictures used for game buttons are from various open source sites. I view multiple sites for Javascript coding. Some open source codes significantly helped me building my game.</h3> 
+ <h3>Pictures used for game buttons are from various open source sites. I view multiple sites for Javascript coding. Some open source codes significantly helped me building my game.I have borrowed code from this tutorial https://codingartistweb.com/2021/03/rock-paper-scissor-game-javascript-step-by-step/ to assist with creating the game I have also personalised some of the code for my own styling and add more function.</h3> 
 
 
   

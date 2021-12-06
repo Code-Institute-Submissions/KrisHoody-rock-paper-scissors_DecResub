@@ -1,14 +1,15 @@
+/*Bacground color and font selected for all text in game*/
 body {
     background-color: blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
 
-
+/*Game title styling*/
 .heading {
     text-align: center;
 }
-
+/* This part styles game button area*/
 .game-area {
     background-color: #2a7eb6;
     box-sizing: border-box;
@@ -21,7 +22,7 @@ body {
     border-radius: 20px;
     border-style: solid;
 }
-
+/* Style buttons*/
 .btn {
     height: 140px;
     border-radius: 20px;
@@ -31,12 +32,12 @@ body {
     
     text-decoration: none;
 }
-
+/*Styling "Please Choose"*/
 h3 {
     margin: auto;
     font-size: 20px;
 }
-
+/*Style for area with player and computer choice and a result */
 .choices {
     box-sizing: border-box;
     margin-left: auto;
@@ -49,6 +50,7 @@ h3 {
     height: 130px ;
     
 }
+/*Points counting area*/
 .points {
     box-sizing: border-box;
     margin-left: auto;
@@ -60,7 +62,7 @@ h3 {
     background-color: aqua;
 }
 
-
+/*Buttton for new game*/
 .newGame {
     box-sizing: border-box;
     margin-left: auto;
@@ -71,11 +73,12 @@ h3 {
     max-width: 830px;
     background-color: aqua;
 }
+/*Images for game buttons are fit on the game buttons*/
 img {
     padding: 5px;
     width: 100px;
 }
-
+/*New game button height style*/
 .newGame > .btn {
     height: 40px;
 }

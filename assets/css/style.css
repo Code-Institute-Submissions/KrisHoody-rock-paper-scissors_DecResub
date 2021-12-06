@@ -1,4 +1,4 @@
-/*Bacground color and font selected for all text in game*/
+/*Background color and font selected for all text in game*/
 body {
     background-color: blue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -22,7 +22,7 @@ body {
     border-radius: 20px;
     border-style: solid;
 }
-/* Style buttons*/
+/*Buttons styling to fit symbol images*/
 .btn {
     height: 140px;
     border-radius: 20px;

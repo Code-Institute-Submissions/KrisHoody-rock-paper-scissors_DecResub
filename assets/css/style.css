@@ -113,6 +113,7 @@ a {
 #links a:hover img {
     transform: scale(2);
 }
+/*Font color */
 nav a {
     color: black;
 }

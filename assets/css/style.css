@@ -113,3 +113,6 @@ a {
 #links a:hover img {
     transform: scale(2);
 }
+nav a {
+    color: black;
+}

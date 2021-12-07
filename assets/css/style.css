@@ -87,18 +87,29 @@ footer {
     background-color: blue;
     height: 100px;
 }
- 
+/*Link and footer styling*/
 #links {
     font-size: 20px;
     text-align: center;
     list-style-type: none;
-   
+    margin-left: auto;
+    margin-right:auto;
+    padding: 20px;
+    
 }
-
+/*link font, color etc.*/
 a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
+    text-decoration: none; 
+    text-align: center;
     
-    
+}
+/*Link text is larger after mouse hover*/
+#links a:hover {
+    font-size: larger;
+}
+/*Resize link img after mouse hover*/
+#links a:hover img {
+    transform: scale(2);
 }
